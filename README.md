@@ -1,7 +1,7 @@
 # react-native-monnify-webview
 
 ![CI](https://github.com/1stmuse/react-native-monnify-webview/actions/workflows/ci.yml/badge.svg)
-![npm](https://img.shields.io/npm/v/react-native-monnify-webview)
+![npm](https://www.npmjs.com/package/react-native-monnify-webview)
 ![license](https://img.shields.io/npm/l/react-native-monnify-webview)
 
 A lightweight React Native wrapper for integrating the **Monnify Web SDK** using `react-native-webview`.
