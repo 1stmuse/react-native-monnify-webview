@@ -41,9 +41,31 @@
     "release": "release-it --only-version"
   },
   "keywords": [
-    "react-native",
+     "react-native",
+    "monnify",
+    "payment",
+    "payment-gateway",
+    "webview",
+    "react-native-webview",
+    "checkout",
+    "nigeria",
+    "fintech",
+    "mobile-payments",
+    "transaction",
+    "payment-processing",
+    "react-native-component",
+    "expo",
+    "modal",
+    "webview",
+    "monnifywebview",
+    "react-native-monnify-webview",
+    "react-native-monnnify",
+    "monnify-react-native",
+    "payment-sdk",
     "ios",
-    "android"
+    "android",
+    "cross-platform",
+    "payment-integration"
   ],
   "repository": {
     "type": "git",
