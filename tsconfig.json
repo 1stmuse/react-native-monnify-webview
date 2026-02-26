@@ -4,6 +4,8 @@
     "paths": {
       "react-native-monify-webview": ["./src/index"]
     },
+    "include": ["src"],
+    "exclude": ["node_modules", "example", "lib"],
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "customConditions": ["react-native-strict-api"],
