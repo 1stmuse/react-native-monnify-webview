@@ -1,12 +1,12 @@
 import React, { useCallback, useMemo, useRef, useState } from 'react';
 import { Toast, type ToastHandle, type ToastOptions } from './Toast';
-import { createHtmlContent, validateParams } from '../lib/index';
+import { createHtmlContent, validateParams } from '../../src/lib/index';
 import { ActivityIndicator, Modal, View } from 'react-native';
 import { WebView, type WebViewMessageEvent } from 'react-native-webview';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import styles from './styles';
 import BackHander from './BackHander';
-import type { MonnifyWebViewParams } from '../lib/types';
+import type { MonnifyWebViewParams } from '../../src/lib/types';
 
 interface MonnifyContextInterface {
   monnify: {
