@@ -1,7 +1,9 @@
 {
   "extends": "./tsconfig",
   "compilerOptions": {
-    "noEmit": false
+    "noEmit": false,
+    "moduleResolution": "node",
+    "module": "CommonJS"
   },
   "include": ["src"],
   "exclude": ["node_modules", "example", "lib/module", "lib/typescript", "lib/commonjs"]
