@@ -1,7 +1,7 @@
 {
   "name": "react-native-monnify-webview",
-  "version": "0.1.0",
-  "description": "Monnify checkout webview for react native",
+  "version": "1.0.0",
+  "description": "A lightweight React Native wrapper for integrating the Monnify Web SDK",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
   "exports": {
@@ -32,7 +32,6 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace react-native-monnify-webview-example expo start",
     "clean": "del-cli lib",
     "prepare": "bob build",
     "typecheck": "tsc",
@@ -41,7 +40,7 @@
     "release": "release-it --only-version"
   },
   "keywords": [
-     "react-native",
+    "react-native",
     "monnify",
     "payment",
     "payment-gateway",
@@ -188,7 +187,6 @@
     "version": "0.57.2"
   },
   "dependencies": {
-    "react-native-monnify-webview": "/Users/mac/Desktop/Personal/RN/libraries/react-native-monnify-webview/react-native-monnify-webview-0.1.0.tgz",
     "react-native-safe-area-context": "^5.6.2",
     "react-native-webview": "^13.16.0"
   }

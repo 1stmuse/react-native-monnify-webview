@@ -10924,43 +10924,13 @@ __metadata:
     react-dom: "npm:19.1.0"
     react-native: "npm:0.81.5"
     react-native-builder-bob: "npm:^0.40.13"
-    react-native-monnify-webview: /Users/mac/Desktop/Personal/RN/libraries/react-native-monnify-webview/react-native-monnify-webview-0.1.0.tgz
+    react-native-monnify-webview: "workspace:^"
     react-native-monorepo-config: "npm:^0.3.3"
     react-native-web: "npm:~0.21.0"
   languageName: unknown
   linkType: soft
 
-"react-native-monnify-webview@file:/Users/mac/Desktop/Personal/RN/libraries/react-native-monnify-webview/react-native-monnify-webview-0.1.0.tgz::locator=react-native-monnify-webview%40workspace%3A.":
-  version: 0.1.0
-  resolution: "react-native-monnify-webview@file:/Users/mac/Desktop/Personal/RN/libraries/react-native-monnify-webview/react-native-monnify-webview-0.1.0.tgz#/Users/mac/Desktop/Personal/RN/libraries/react-native-monnify-webview/react-native-monnify-webview-0.1.0.tgz::hash=8e384f&locator=react-native-monnify-webview%40workspace%3A."
-  dependencies:
-    react-native-safe-area-context: "npm:^5.6.2"
-    react-native-webview: "npm:^13.16.0"
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-    react-native-safe-area-context: "*"
-    react-native-webview: "*"
-  checksum: 10c0/85bf73e2558b854531b302c3185b9289e2aee48c822f006f8b81b5ea5b3875a66c5ab5c3c3c5c3c5260200e8ccf7360eb5e17b0d4d841924005756e187d09fb3
-  languageName: node
-  linkType: hard
-
-"react-native-monnify-webview@file:/Users/mac/Desktop/Personal/RN/libraries/react-native-monnify-webview/react-native-monnify-webview-0.1.0.tgz::locator=react-native-monnify-webview-example%40workspace%3Aexample":
-  version: 0.1.0
-  resolution: "react-native-monnify-webview@file:/Users/mac/Desktop/Personal/RN/libraries/react-native-monnify-webview/react-native-monnify-webview-0.1.0.tgz#/Users/mac/Desktop/Personal/RN/libraries/react-native-monnify-webview/react-native-monnify-webview-0.1.0.tgz::hash=8e384f&locator=react-native-monnify-webview-example%40workspace%3Aexample"
-  dependencies:
-    react-native-safe-area-context: "npm:^5.6.2"
-    react-native-webview: "npm:^13.16.0"
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-    react-native-safe-area-context: "*"
-    react-native-webview: "*"
-  checksum: 10c0/85bf73e2558b854531b302c3185b9289e2aee48c822f006f8b81b5ea5b3875a66c5ab5c3c3c5c3c5260200e8ccf7360eb5e17b0d4d841924005756e187d09fb3
-  languageName: node
-  linkType: hard
-
-"react-native-monnify-webview@workspace:.":
+"react-native-monnify-webview@workspace:., react-native-monnify-webview@workspace:^":
   version: 0.0.0-use.local
   resolution: "react-native-monnify-webview@workspace:."
   dependencies:
@@ -10984,7 +10954,6 @@ __metadata:
     react: "npm:19.1.0"
     react-native: "npm:0.81.5"
     react-native-builder-bob: "npm:^0.40.13"
-    react-native-monnify-webview: /Users/mac/Desktop/Personal/RN/libraries/react-native-monnify-webview/react-native-monnify-webview-0.1.0.tgz
     react-native-safe-area-context: "npm:^5.6.2"
     react-native-webview: "npm:^13.16.0"
     release-it: "npm:^19.0.4"
