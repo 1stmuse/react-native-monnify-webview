@@ -28,13 +28,14 @@ jobs:
         run: yarn install --immutable
       - name: Lint files
         run: yarn lint
-      - name: Debug tsconfig
+      - name: Debug src/lib
         run: |
-          cat tsconfig.build.json
-          echo "---"
-          npx tsc -p tsconfig.build.json --listFiles 2>&1 | head -50
-          echo "---"
-          npx tsc -p tsconfig.build.json --showConfig 2>&1
+          echo "=== src/lib contents ==="
+          ls -la src/lib/
+          echo "=== src/lib/index.ts ==="
+          cat src/lib/index.ts
+          echo "=== src/lib/types.ts ==="
+          cat src/lib/types.ts
       - name: Build package
         run: yarn clean && yarn prepare
       - name: Typecheck files
