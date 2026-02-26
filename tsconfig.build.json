@@ -3,7 +3,7 @@
   "compilerOptions": {
     "noEmit": false,
     "moduleResolution": "bundler",
-    "module": "CommonJS"
+    "module": "preserve"
   },
   "include": ["src"],
   "exclude": ["node_modules", "example", "lib/module", "lib/typescript", "lib/commonjs"]
