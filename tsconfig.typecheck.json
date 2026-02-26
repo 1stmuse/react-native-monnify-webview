@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "customConditions": ["react-native-strict-api"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "example", "lib/module", "lib/typescript", "lib/commonjs"]
+}
