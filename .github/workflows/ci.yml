@@ -28,6 +28,13 @@ jobs:
         run: yarn install --immutable
       - name: Lint files
         run: yarn lint
+      - name: Debug tsconfig
+        run: |
+          cat tsconfig.build.json
+          echo "---"
+          npx tsc -p tsconfig.build.json --listFiles 2>&1 | head -50
+          echo "---"
+          npx tsc -p tsconfig.build.json --showConfig 2>&1
       - name: Build package
         run: yarn clean && yarn prepare
       - name: Typecheck files
