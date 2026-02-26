@@ -28,14 +28,6 @@ jobs:
         run: yarn install --immutable
       - name: Lint files
         run: yarn lint
-      - name: Debug src/lib
-        run: |
-          echo "=== src/lib contents ==="
-          ls -la src/lib/
-          echo "=== src/lib/index.ts ==="
-          cat src/lib/index.ts
-          echo "=== src/lib/types.ts ==="
-          cat src/lib/types.ts
       - name: Build package
         run: yarn clean && yarn prepare
       - name: Typecheck files
