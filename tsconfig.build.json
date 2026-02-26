@@ -1,5 +1,5 @@
 {
   "extends": "./tsconfig",
   "include": ["src"],
-  "exclude": ["example", "lib"]
+  "exclude": ["node_modules", "example", "lib/module", "lib/typescript", "lib/commonjs"]
 }

@@ -28,5 +28,5 @@
     "verbatimModuleSyntax": true
   },
   "include": ["src"],
-  "exclude": ["node_modules", "example", "lib"],
+    "exclude": ["node_modules", "example", "lib/module", "lib/typescript", "lib/commonjs"]
 }
